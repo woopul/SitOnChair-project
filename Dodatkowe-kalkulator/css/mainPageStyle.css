@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-    width: 1400px;
+    width: 1250px;
     margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ header {
     color: #fff;
 }
 
-.header__logo a span{
+.header__logo a span {
     font-weight: 700;
 }
 
@@ -56,6 +56,7 @@ nav ul li:not(:last-child) {
 }
 
 section.slider {
+    margin-top: 50px;
     height: 400px;
     background: rgba(255, 255, 255, 1);
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 4%, rgba(246, 246, 246, 1) 72%, rgba(181, 181, 181, 1) 100%);
@@ -69,27 +70,45 @@ section.slider {
 
 .arrow {
     align-self: center;
-    font-size: 55px;
+    font-size: 80px;
+    font-weight: 300;
 }
 
 .slider__text__content {
     width: 440px;
-    font-size: 45px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .slider__text__content p {
+    font-size: 45px;
+    font-weight: 400;
     text-align: center;
-    font-weight: 600;
+    padding-bottom: 0;
+    padding-top: 50px;
 }
 
-.slider__text__content p span{
+.slider__text__content p span {
     font-weight: 700;
 }
 
-.slider__text__content article{
-    font-size: 20px;
+.slider__text__content article {
+    font-size: 17px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.slider__button {
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    background-color: #24BA9F;
+    border-radius: 15px;
+    /*align-self: center;*/
 }
 
 
