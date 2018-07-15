@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', Arial, Verdana, Halvetica sans-serif;
+}
+
+.color {
+    color: #24BA9F;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.flex-Y-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-X-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
+.header__logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__logo a span{
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 60px;
+
+}
+
+section.slider {
+    height: 400px;
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 4%, rgba(246, 246, 246, 1) 72%, rgba(181, 181, 181, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(4%, rgba(255, 255, 255, 1)), color-stop(72%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(181, 181, 181, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 4%, rgba(246, 246, 246, 1) 72%, rgba(181, 181, 181, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 4%, rgba(246, 246, 246, 1) 72%, rgba(181, 181, 181, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 4%, rgba(246, 246, 246, 1) 72%, rgba(181, 181, 181, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 4%, rgba(246, 246, 246, 1) 72%, rgba(181, 181, 181, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b5b5b5', GradientType=0);
+}
+
+.arrow {
+    align-self: center;
+    font-size: 55px;
+}
+
+.slider__text__content {
+    width: 440px;
+    font-size: 45px;
+
+}
+
+.slider__text__content p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.slider__text__content p span{
+    font-weight: 700;
+}
+
+.slider__text__content article{
+    font-size: 20px;
+    text-align: center;
+}
+
+
