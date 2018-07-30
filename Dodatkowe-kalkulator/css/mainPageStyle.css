@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-    width: 1250px;
+    width: 1055px;
     margin: 0 auto;
 }
 
@@ -108,7 +108,236 @@ section.slider {
     color: white;
     background-color: #24BA9F;
     border-radius: 15px;
+    outline: none;
+    box-shadow: none;
     /*align-self: center;*/
 }
 
+/*--------------------------------------- CHAIR TO CHOOSE SECTION -----------------*/
+.chair__list {
+    width: 100%;
+    background: #fff;
+    height: 350px;
+}
 
+.chair__dimensions {
+    width: 329px;
+    height: 225px;
+    position: relative;
+    font-weight: 600;
+
+}
+
+.chair1 {
+    background-image: url("../../images/box1_img.jpg");
+    background-size: cover;
+
+}
+
+.chair2 {
+    background-image: url("../../images/box2_img.jpg");
+    background-size: cover;
+}
+
+.chair__bright__bar {
+    background-color: rgba(255, 255, 255, 0.36);
+    width: 100%;
+    height: 61px;
+    position: absolute;
+    bottom: 14px;
+}
+
+.chair__bright__bar p {
+    padding: 15px 0 0 20px;
+}
+
+.chair__bright__bar p:after {
+    width: 138px;
+    height: 6px;
+    content: '';
+    background: #24BA9F;
+    position: absolute;
+    top: 36px;
+    left: 20px;
+}
+
+.chair__text__right {
+    width: 329px;
+    height: 255px;
+    border: 1px solid #d8d7b7;
+}
+
+/*----------------------------------------------PRICES SECTION ----------------------------*/
+
+section.prices {
+    width: 100%;
+    height: 725px;
+    background: #F0F0F0;
+
+}
+
+/*---------------------PRICE BOX LEFT*/
+.price__box {
+    width: 330px;
+    height: 500px;
+    background: #F8F8F8;
+    border: 2px solid #C1C1C1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /*justify-content: space-around;*/
+}
+
+.price__box:before {
+    width: 53px;
+    height: 53px;
+    background: #C1C1C1;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 13px white;
+    content: '';
+    position: absolute;
+    border: 2px solid #C1C1C1;
+    top: -35px;
+    left: 137px;
+}
+
+.box__title {
+    padding-top: 32px;
+}
+
+.price__circle {
+    width: 125px;
+    height: 125px;
+    border: 2px solid #C1C1C1;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #C1C1C1;
+    margin-top: 32px;
+    /*justify-content: center;*/
+
+}
+
+/*--------------inside price circle*/
+.price__text {
+    font-size: 48px;
+    font-weight: 800;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 4px;
+
+}
+
+.num_down {
+    /*font-size: 35px ;*/
+    padding-top: 5px;
+}
+
+.cents_up {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.price__per__month {
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.box__title {
+    color: #24BA9F;
+    font-size: 25px;
+}
+
+/*-------------Cards---*/
+.card {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #959595;
+    font-size: 21px;
+}
+
+.shop_card {
+    background-color: #E3E3E3;
+    margin-top: 36px;
+}
+
+.service_card {
+    background: #f1f1f1;
+}
+
+.price__box__btn {
+    width: 120px;
+    height: 35px;
+    background: #24BA9F;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 20px;
+}
+
+/*----------------------------------------PRICE BOX MIDDLE*/
+.price__box.middle {
+    background: #26C3A7;
+    border: 2px solid #26C3A7;
+}
+.price__box.middle .box__title{
+    color: #fff;
+}
+
+.price__box.middle .price__circle{
+    border: none;
+    color: #24BA9F;
+    background: #F8F8F8;
+}
+
+.price__box.middle .price__text{
+    color: #24BA9F;
+}
+.price__box.middle:before {
+    border: 2px solid #26C3A7;
+    background: #F6F8F8;
+    box-shadow: inset 0 0 0 13px #26C3A7;
+}
+
+.price__box.middle .shop_card, .price__box.middle .warranty{
+    background: #FDFDFE;
+}
+
+.price__box.middle .price__box__btn{
+    background: #FDFDFE;
+    color: #26C3A7;
+}
+
+
+/*-----------RIGHT BOX*/
+.right .warranty{
+    background: #E3E3E3;
+}
+
+.right .advices {
+    background: #f1f1f1;
+}
+
+
+/*--------------*/
+/*.price__box.middle .price__box__btn:hover{*/
+    /*background: #CACACB;*/
+    /*color: white;*/
+/*}*/
+
+/*TO DO
+1.0 Finish boxes
+1. Change button - make it without focus border, highlitning when cursor on
+2. Silder - when arrow pressed change picture of chair
+3.
+*/
