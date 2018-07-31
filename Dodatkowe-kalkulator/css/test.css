@@ -2,13 +2,44 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 50px;
+    font-size: 20px;
 }
 
-.container {
-    height: 50px;
-    width: 200px;
-    max-width: 200px;
-    background: #c6c5a6;
 
+.checkbox_container{
+    margin: 50px 100px;
+}
+
+#accept_terms_box{
+    position: absolute;
+    opacity: 0;
+}
+
+#accept_terms_box +label{
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#accept_terms_box + label:before{
+    content: "";
+    margin-right: 20px;
+    display: inline-block;
+    /* sets label text on center level with box*/
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #23BA9D;
+}
+
+#accept_terms_box:checked + label:after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top:0;
+    left: 4px;
+    background-size: cover;
+    background-image: url("../../images/form_ok.jpg");
 }

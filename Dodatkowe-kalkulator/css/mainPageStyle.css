@@ -331,6 +331,51 @@ section.prices {
 
 /*---------------------------------------CALCULATOR SECTION*/
 
+/*---------------------CUSTOM CHECKBOX*/
+
+[type="checkbox"]{
+     position: absolute;
+     opacity: 0;
+}
+
+[type="checkbox"] + label {
+     position: relative;
+     cursor: pointer;
+     line-height: 40px;
+     color: #B1B1B1;
+     font-size: 23px;
+}
+
+[type="checkbox"] + label::before {
+     content: "";
+     margin-right: 20px;
+     display: inline-block;
+     /* sets label text on center level with box*/
+     vertical-align: top;
+     background: white;
+     width: 40px;
+     height: 40px;
+     border: 1px solid rgba(46, 172, 145, 0.6);
+     border-radius: 4px;
+}
+
+[type="checkbox"]:hover + label::before,
+[type="checkbox"]:hover + label::after {
+filter: brightness(95%);
+}
+
+[type="checkbox"]:checked+ label::after {
+     content: "";
+     position: absolute;
+     width: 35px;
+     height: 35px;
+     top: -4px;
+     left: 1px;
+     background-size: cover;
+     background-image: url("../../images/form_ok.jpg");
+}
+
+/*----------------SECTION STYLE*/
 .application {
      background-color: #f9f9f9;
      padding: 30px 0;
@@ -372,64 +417,64 @@ section.prices {
      position: relative;
 }
 
-.list_label {
-     font-size: 20px;
-     color: #e2e2e2;
-     font-family: 'ralewaylight', Arial, Tahoma, sans-serif;
-}
+/*.list_label {*/
+     /*font-size: 20px;*/
+     /*color: #e2e2e2;*/
+     /*font-family: 'ralewaylight', Arial, Tahoma, sans-serif;*/
+/*}*/
 
-.checkbox {
-     position: relative;
-     padding: 30px 30px 30px 0;
-}
+/*.checkbox {*/
+     /*position: relative;*/
+     /*padding: 30px 30px 30px 0;*/
+/*}*/
 
-.checkbox input {
-     display: block;
-     opacity: 0;
-     height: 48px;
-     position: absolute;
-     width: 48px;
-     cursor: pointer;
-}
+/*.checkbox input {*/
+     /*display: block;*/
+     /*opacity: 0;*/
+     /*height: 48px;*/
+     /*position: absolute;*/
+     /*width: 48px;*/
+     /*cursor: pointer;*/
+/*}*/
 
-.checkbox label {
-     display: block;
-     padding-left: 65px;
-     position: relative;
-     font-size: 28px;
-     color: #cecece;
-     line-height: 120%;
-     padding-top: 10px;
-     cursor: pointer;
-}
+/*.checkbox label {*/
+     /*display: block;*/
+     /*padding-left: 65px;*/
+     /*position: relative;*/
+     /*font-size: 28px;*/
+     /*color: #cecece;*/
+     /*line-height: 120%;*/
+     /*padding-top: 10px;*/
+     /*cursor: pointer;*/
+/*}*/
 
-.checkbox label::before, .checkbox label::after {
-     border: 1px solid #27c7ab;
-     content: "";
-     display: block;
-     left: 0;
-     height: 48px;
-     position: absolute;
-     width: 48px;
-     top: 0;
-}
+/*.checkbox label::before, .checkbox label::after {*/
+     /*border: 1px solid #27c7ab;*/
+     /*content: "";*/
+     /*display: block;*/
+     /*left: 0;*/
+     /*height: 48px;*/
+     /*position: absolute;*/
+     /*width: 48px;*/
+     /*top: 0;*/
+/*}*/
 
-.checkbox label::after {
-     background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
-     border: 0;
-     display: none;
-}
+/*.checkbox label::after {*/
+/*background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;*/
+/*border: 0;*/
+/*display: none;*/
+/*}*/
 
-.checkbox input:checked + label::after {
-     display: block;
-}
+/*.checkbox input:checked + label::after {*/
+     /*display: block;*/
+/*}*/
 
-.active {
-     background: url('../../images/form_ok.jpg');
-     width: 48px;
-     height: 40px;
+/*.active {*/
+     /*background: url('../../images/form_ok.jpg');*/
+     /*width: 48px;*/
+     /*height: 40px;*/
 
-}
+/*}*/
 
 .inline_text {
      display: inline-block;
@@ -462,7 +507,7 @@ section.prices {
 
 }
 
-.summary_part.inline{
+.summary_part.inline {
      width: 320px;
 }
 
@@ -614,11 +659,11 @@ section.contact {
 }
 
 /*All placeholders of form (section contact) style*/
-.form [placeholder]::placeholder{
+.form [placeholder]::placeholder {
      padding-left: 15px;
      font-size: 20px;
      /*color: #C8C8C8;*/
-     color: rgba(39,198,170, 0.5);
+     color: rgba(39, 198, 170, 0.5);
 }
 
 .form input {
@@ -640,7 +685,7 @@ section.contact {
 }
 
 /*textarea placeholder - somethin was not right with general upwards style for all*/
-#message::placeholder{
+#message::placeholder {
      font-size: 22px;
      padding-top: 10px;
 }
@@ -657,14 +702,11 @@ section.contact {
 }
 
 .check_line {
-     display: flex;
+     margin-top: 30px;
 }
 
-.check_line p {
-     color: #A9A9A9;
-     font-size: 20px;
 
-}
+
 
 .right_side .btn {
      width: 320px;
@@ -672,6 +714,7 @@ section.contact {
      border-radius: 10px;
      background: #24B99E;
      color: #fff;
+     margin-top: 30px;
      margin-left: 15px;
 }
 
