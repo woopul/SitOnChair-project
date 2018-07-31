@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b322dc1e-6fad-44d0-9360-de0c1575256e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dodatkowe-kalkulator/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/css/test.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dodatkowe-kalkulator/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47721353">
+    <splitter split-orientation="horizontal" split-proportion="0.42814815">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="warsztat1.jpg" pinned="false" current-in-tab="false">
@@ -29,8 +29,8 @@
           <file leaf-file-name="mainPage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1122">
-                  <caret line="120" column="24" lean-forward="true" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
+                <state relative-caret-position="368">
+                  <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
                   <folding>
                     <element signature="e#1084#1088#0" expanded="true" />
                     <element signature="e#1676#1680#0" expanded="true" />
@@ -81,10 +81,15 @@
           <file leaf-file-name="mainPageStyle.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="363" column="24" lean-forward="true" selection-start-line="363" selection-start-column="24" selection-end-line="363" selection-end-column="24" />
+                <state relative-caret-position="250">
+                  <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
@@ -110,8 +115,14 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>menu</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,6 +132,7 @@
       <list>
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/test.html" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/test.css" />
+        <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" />
       </list>
@@ -136,9 +148,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -162,12 +174,7 @@
               <item name="SitOnChair-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SitOnChair-project" type="462c0819:PsiDirectoryNode" />
               <item name="Dodatkowe-kalkulator" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SitOnChair-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SitOnChair-project" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Verti" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,12 +215,12 @@
       <updated>1531476572863</updated>
       <workItem from="1531476573992" duration="16094000" />
       <workItem from="1531740708447" duration="21706000" />
-      <workItem from="1532893733512" duration="25229000" />
+      <workItem from="1532893733512" duration="33249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63029000" />
+    <option name="totallyTimeSpent" value="71049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -375,13 +382,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/warsztat1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <caret line="120" column="24" lean-forward="true" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
+        <state relative-caret-position="368">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
             <element signature="e#1084#1088#0" expanded="true" />
             <element signature="e#1676#1680#0" expanded="true" />
@@ -391,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="363" column="24" lean-forward="true" selection-start-line="363" selection-start-column="24" selection-end-line="363" selection-end-column="24" />
+        <state relative-caret-position="250">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
         </state>
       </provider>
     </entry>

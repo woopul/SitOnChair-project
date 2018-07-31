@@ -33,6 +33,7 @@ body {
      background: #000;
      color: #fff;
      font-size: 16px;
+     /*position: relative;*/
 }
 
 .header__logo a {
@@ -44,16 +45,73 @@ body {
      font-weight: 700;
 }
 
-nav ul {
+nav > ul {
      display: flex;
      justify-content: flex-start;
      list-style: none;
 }
 
-nav ul li:not(:last-child) {
+nav > ul > li:not(:last-child) {
      margin-right: 60px;
-
 }
+
+.menu_company {
+     position: relative;
+}
+
+/*.rectangle {*/
+     /*width: 400px;*/
+     /*height: 400px;*/
+     /*background-color: #23BA9D;*/
+     /*position: absolute;*/
+/*}*/
+
+/*--------------------SUB MENU*/
+
+.submenu_company {
+height: 100%;
+list-style: none;
+color: white;
+font-size: 15px;
+padding-left: 13px;
+padding-top: 7px;
+padding-bottom: 6px;
+/*padding: 10px;*/
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+position:relative;
+box-shadow: 0 0 10px 2px #0000008f;
+}
+
+/*div with submenu*/
+.sub_container {
+     display: none;
+     width: 120px;
+     height: 95px;
+     background-color: black;
+     position: absolute;
+     top: 200%;
+     left: 50%;
+     transform: translate(-50%, 0);
+}
+
+/*Triangle arrow on top of the submenu*/
+.submenu_company::after{
+     content: "";
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-bottom: 10px solid black;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     transform: translate(-50%, -100%);
+     /*top: -20px;*/
+}
+
+/*--------------------------------------SLIDER SECTION-----------*/
 
 section.slider {
      margin-top: 50px;
@@ -333,7 +391,7 @@ section.prices {
 
 /*---------------------CUSTOM CHECKBOX*/
 
-[type="checkbox"]{
+[type="checkbox"] {
      position: absolute;
      opacity: 0;
 }
@@ -361,10 +419,10 @@ section.prices {
 
 [type="checkbox"]:hover + label::before,
 [type="checkbox"]:hover + label::after {
-filter: brightness(95%);
+     filter: brightness(95%);
 }
 
-[type="checkbox"]:checked+ label::after {
+[type="checkbox"]:checked + label::after {
      content: "";
      position: absolute;
      width: 35px;
@@ -418,45 +476,45 @@ filter: brightness(95%);
 }
 
 /*.list_label {*/
-     /*font-size: 20px;*/
-     /*color: #e2e2e2;*/
-     /*font-family: 'ralewaylight', Arial, Tahoma, sans-serif;*/
+/*font-size: 20px;*/
+/*color: #e2e2e2;*/
+/*font-family: 'ralewaylight', Arial, Tahoma, sans-serif;*/
 /*}*/
 
 /*.checkbox {*/
-     /*position: relative;*/
-     /*padding: 30px 30px 30px 0;*/
+/*position: relative;*/
+/*padding: 30px 30px 30px 0;*/
 /*}*/
 
 /*.checkbox input {*/
-     /*display: block;*/
-     /*opacity: 0;*/
-     /*height: 48px;*/
-     /*position: absolute;*/
-     /*width: 48px;*/
-     /*cursor: pointer;*/
+/*display: block;*/
+/*opacity: 0;*/
+/*height: 48px;*/
+/*position: absolute;*/
+/*width: 48px;*/
+/*cursor: pointer;*/
 /*}*/
 
 /*.checkbox label {*/
-     /*display: block;*/
-     /*padding-left: 65px;*/
-     /*position: relative;*/
-     /*font-size: 28px;*/
-     /*color: #cecece;*/
-     /*line-height: 120%;*/
-     /*padding-top: 10px;*/
-     /*cursor: pointer;*/
+/*display: block;*/
+/*padding-left: 65px;*/
+/*position: relative;*/
+/*font-size: 28px;*/
+/*color: #cecece;*/
+/*line-height: 120%;*/
+/*padding-top: 10px;*/
+/*cursor: pointer;*/
 /*}*/
 
 /*.checkbox label::before, .checkbox label::after {*/
-     /*border: 1px solid #27c7ab;*/
-     /*content: "";*/
-     /*display: block;*/
-     /*left: 0;*/
-     /*height: 48px;*/
-     /*position: absolute;*/
-     /*width: 48px;*/
-     /*top: 0;*/
+/*border: 1px solid #27c7ab;*/
+/*content: "";*/
+/*display: block;*/
+/*left: 0;*/
+/*height: 48px;*/
+/*position: absolute;*/
+/*width: 48px;*/
+/*top: 0;*/
 /*}*/
 
 /*.checkbox label::after {*/
@@ -466,13 +524,13 @@ filter: brightness(95%);
 /*}*/
 
 /*.checkbox input:checked + label::after {*/
-     /*display: block;*/
+/*display: block;*/
 /*}*/
 
 /*.active {*/
-     /*background: url('../../images/form_ok.jpg');*/
-     /*width: 48px;*/
-     /*height: 40px;*/
+/*background: url('../../images/form_ok.jpg');*/
+/*width: 48px;*/
+/*height: 40px;*/
 
 /*}*/
 
@@ -704,9 +762,6 @@ section.contact {
 .check_line {
      margin-top: 30px;
 }
-
-
-
 
 .right_side .btn {
      width: 320px;
