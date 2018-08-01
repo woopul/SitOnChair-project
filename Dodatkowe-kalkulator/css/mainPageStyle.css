@@ -55,49 +55,56 @@ nav > ul > li:not(:last-child) {
      margin-right: 60px;
 }
 
-.menu_company {
+.menu > li:hover {
+     color: #24B99E;
+     cursor: pointer;
+}
+
+#menu_company {
      position: relative;
 }
 
 /*.rectangle {*/
-     /*width: 400px;*/
-     /*height: 400px;*/
-     /*background-color: #23BA9D;*/
-     /*position: absolute;*/
+/*width: 400px;*/
+/*height: 400px;*/
+/*background-color: #23BA9D;*/
+/*position: absolute;*/
 /*}*/
 
 /*--------------------SUB MENU*/
 
-.submenu_company {
-height: 100%;
-list-style: none;
-color: white;
-font-size: 15px;
-padding-left: 13px;
-padding-top: 7px;
-padding-bottom: 6px;
-/*padding: 10px;*/
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-position:relative;
-box-shadow: 0 0 10px 2px #0000008f;
-}
-
 /*div with submenu*/
-.sub_container {
+#sub_container {
      display: none;
      width: 120px;
-     height: 95px;
-     background-color: black;
+     height: 110px;
+     /*background-color: yellow;*/
      position: absolute;
-     top: 200%;
+     top: 80%;
      left: 50%;
+     padding-top: 25px;
      transform: translate(-50%, 0);
 }
 
+#submenu_company {
+     height: 100%;
+     list-style: none;
+     color: white;
+     font-size: 15px;
+     padding-left: 13px;
+     padding-top: 7px;
+     padding-bottom: 6px;
+     background-color: black;
+     /*padding: 10px;*/
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     position: relative;
+     box-shadow: 0 0 10px 2px #0000008f;
+}
+
 /*Triangle arrow on top of the submenu*/
-.submenu_company::after{
+#submenu_company::after {
      content: "";
      width: 0;
      height: 0;
@@ -109,6 +116,10 @@ box-shadow: 0 0 10px 2px #0000008f;
      left: 50%;
      transform: translate(-50%, -100%);
      /*top: -20px;*/
+}
+
+#submenu_company li:hover{
+     color: #23BA9D;
 }
 
 /*--------------------------------------SLIDER SECTION-----------*/
@@ -392,6 +403,7 @@ section.prices {
 /*---------------------CUSTOM CHECKBOX*/
 
 [type="checkbox"] {
+     display: none;
      position: absolute;
      opacity: 0;
 }
@@ -761,6 +773,7 @@ section.contact {
 
 .check_line {
      margin-top: 30px;
+     /*width: 300px;*/
 }
 
 .right_side .btn {
