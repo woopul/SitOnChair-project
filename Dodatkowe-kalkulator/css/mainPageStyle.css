@@ -142,6 +142,9 @@ section.slider {
      font-size: 80px;
      font-weight: 300;
 }
+.arrow:hover {
+     cursor: pointer;
+}
 
 .slider__text__content {
      width: 440px;
@@ -194,13 +197,11 @@ section.slider {
      height: 225px;
      position: relative;
      font-weight: 600;
-
 }
 
 .chair1 {
      background-image: url("../../images/box1_img.jpg");
      background-size: cover;
-
 }
 
 .chair2 {

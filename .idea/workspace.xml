@@ -17,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47407407">
+    <splitter split-orientation="horizontal" split-proportion="0.46143156">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="warsztat1.jpg" pinned="false" current-in-tab="false">
@@ -28,8 +28,8 @@
           <file leaf-file-name="mainPage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3904">
-                  <caret line="250" column="22" selection-start-line="250" selection-start-column="22" selection-end-line="250" selection-end-column="22" />
+                <state relative-caret-position="1404">
+                  <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
                   <folding>
                     <element signature="e#1084#1088#0" expanded="true" />
                     <element signature="e#1676#1680#0" expanded="true" />
@@ -77,20 +77,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="mainPageStyle.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="mainPageStyle.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1936">
-                  <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+                <state relative-caret-position="3248">
+                  <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+                <state relative-caret-position="581">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
                 </state>
               </provider>
             </entry>
@@ -136,9 +136,9 @@
       <list>
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/test.html" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/test.css" />
+        <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js" />
-        <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" />
       </list>
     </option>
   </component>
@@ -219,18 +219,18 @@
       <updated>1531476572863</updated>
       <workItem from="1531476573992" duration="16094000" />
       <workItem from="1531740708447" duration="21706000" />
-      <workItem from="1532893733512" duration="37459000" />
+      <workItem from="1532893733512" duration="40646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75259000" />
+    <option name="totallyTimeSpent" value="78446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12109375" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.06315104" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -389,28 +389,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html">
+    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3904">
-          <caret line="250" column="22" selection-start-line="250" selection-start-column="22" selection-end-line="250" selection-end-column="22" />
-          <folding>
-            <element signature="e#1084#1088#0" expanded="true" />
-            <element signature="e#1676#1680#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3248">
+          <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="581">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
+    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1936">
-          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+        <state relative-caret-position="1404">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#1084#1088#0" expanded="true" />
+            <element signature="e#1676#1680#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
