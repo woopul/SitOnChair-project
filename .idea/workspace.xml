@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b322dc1e-6fad-44d0-9360-de0c1575256e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/images/orange_chair.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html" afterDir="false" />
@@ -17,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46143156">
+    <splitter split-orientation="horizontal" split-proportion="0.48046875">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="warsztat1.jpg" pinned="false" current-in-tab="false">
@@ -28,8 +30,11 @@
           <file leaf-file-name="mainPage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1404">
-                  <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+                <state relative-caret-position="769">
+                  <caret line="196" column="50" selection-start-line="196" selection-start-column="50" selection-end-line="196" selection-end-column="50" />
+                  <caret line="197" column="50" selection-start-line="197" selection-start-column="50" selection-end-line="197" selection-end-column="50" />
+                  <caret line="198" column="50" selection-start-line="198" selection-start-column="50" selection-end-line="198" selection-end-column="50" />
+                  <caret line="199" column="50" selection-start-line="199" selection-start-column="50" selection-end-line="199" selection-end-column="50" />
                   <folding>
                     <element signature="e#1084#1088#0" expanded="true" />
                     <element signature="e#1676#1680#0" expanded="true" />
@@ -41,8 +46,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1360">
-                  <caret line="85" column="4" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+                <state relative-caret-position="-672">
+                  <caret column="16" selection-start-column="16" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -50,8 +55,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3680">
-                  <caret line="235" column="1" lean-forward="true" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
+                <state relative-caret-position="320">
+                  <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
                   <folding>
                     <element signature="e#1248#1865#1" expanded="true" />
                   </folding>
@@ -80,8 +85,8 @@
           <file leaf-file-name="mainPageStyle.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3248">
-                  <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+                <state relative-caret-position="376">
+                  <caret line="622" column="17" lean-forward="true" selection-start-line="622" selection-start-column="17" selection-end-line="622" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -89,17 +94,27 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="581">
-                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+                <state relative-caret-position="485">
+                  <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="orange_chair.png" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/images/orange_chair.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file leaf-file-name="black_chair.png" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/images/black_chair.png">
+              <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
           <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/test.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="45" />
+                  <caret line="7" selection-start-line="7" selection-end-line="45" />
                 </state>
               </provider>
             </entry>
@@ -125,7 +140,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>menu</find>
+      <find>menu_comp</find>
       <find>chec</find>
+      <find>.sum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,8 +153,9 @@
       <list>
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/test.html" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/test.css" />
-        <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" />
+        <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/style.css" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html" />
+        <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css" />
         <option value="$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js" />
       </list>
     </option>
@@ -178,7 +196,18 @@
               <item name="SitOnChair-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SitOnChair-project" type="462c0819:PsiDirectoryNode" />
               <item name="Dodatkowe-kalkulator" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SitOnChair-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SitOnChair-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Dodatkowe-kalkulator" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SitOnChair-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SitOnChair-project" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,11 +218,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Verti" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zajecia/WRO_FER_S_14_JavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodersLab\projects\SitOnChair-project\Dodatkowe-kalkulator\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -219,18 +253,18 @@
       <updated>1531476572863</updated>
       <workItem from="1531476573992" duration="16094000" />
       <workItem from="1531740708447" duration="21706000" />
-      <workItem from="1532893733512" duration="40646000" />
+      <workItem from="1532893733512" duration="66794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78446000" />
+    <option name="totallyTimeSpent" value="104594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.06315104" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.14583333" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -316,9 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/images/black_chair.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/flickr.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -343,22 +374,13 @@
     <entry file="file://$PROJECT_DIR$/images/black_chair.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/orange_chair.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/red_chair.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/images/red_chair.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/form_ok.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/test.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="45" />
+          <caret line="7" selection-start-line="7" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -372,10 +394,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/images/red_chair.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/red_chair.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/images/black_chair.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/orange_chair.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="235" column="1" lean-forward="true" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
+        <state relative-caret-position="320">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="e#1248#1865#1" expanded="true" />
           </folding>
@@ -384,33 +418,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="85" column="4" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3248">
-          <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="-672">
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="769">
+          <caret line="196" column="50" selection-start-line="196" selection-start-column="50" selection-end-line="196" selection-end-column="50" />
+          <caret line="197" column="50" selection-start-line="197" selection-start-column="50" selection-end-line="197" selection-end-column="50" />
+          <caret line="198" column="50" selection-start-line="198" selection-start-column="50" selection-end-line="198" selection-end-column="50" />
+          <caret line="199" column="50" selection-start-line="199" selection-start-column="50" selection-end-line="199" selection-end-column="50" />
           <folding>
             <element signature="e#1084#1088#0" expanded="true" />
             <element signature="e#1676#1680#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/css/mainPageStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="622" column="17" lean-forward="true" selection-start-line="622" selection-start-column="17" selection-end-line="622" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dodatkowe-kalkulator/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
         </state>
       </provider>
     </entry>
