@@ -9,10 +9,11 @@ var chairRight = document.getElementById("chair-right");
 var barLeft = document.getElementById("bar-left");
 var barRight = document.getElementById("bar-right");
 
-//pictures slider
+//pictures slider - Node List
 var sliderPic = document.querySelectorAll(".slider img");
 //arrows
 var arrows = document.querySelectorAll(".arrow"),
+
     previousArr = document.getElementById("previousArr"),
     nextArr = document.getElementById("nextArr");
 
@@ -63,23 +64,33 @@ chairRight.addEventListener('mouseout', function () {
 // });
 
 
-// sliderPic.forEach(function (pic) {
-//     // if(pic.id === "black-chair"){
-//         pic.hidden = "true";
-//     // }
-// })
-// sliderPic[1].style.display = "block";
-// console.log(sliderPic[0].style.display);
+
+var sliderPicArray = [];
+sliderPic.forEach(function (pic) {
+    sliderPicArray.push(pic);
+}) ;
+
+//sets necessery style display value for each img (DOES NOT WORK WITH CSS STYLE ONLY! WHY?)
+for(var i = 0; i < sliderPicArray.length; i++) {
+    if(i === 0) sliderPicArray[i].style.display = 'block';
+    else sliderPicArray[i].style.display = "none";
+}
+
+console.log(sliderPicArray);
+
 
 previousArr.addEventListener('click', function () {
-    // debugger;
-    for (var i = 0; i < sliderPic.length; i++) {
-        if (sliderPic[i].style.display === "block") {
-            sliderPic[i].style.display = "none";
+    debugger;
+    for (var i = 0; i < sliderPicArray.length; i++) {
+        // console.log(sliderPicArray[i]);
+        if(sliderPicArray[i].style.display === "block") {
+            sliderPicArray[i].style.display = "none";
             if (i === 0) {
-                sliderPic[(sliderPic.length - 1)].style.display = "block";
+                sliderPicArray[sliderPicArray.length - 1].style.display = "block";
+                break;
             } else {
-                sliderPic[(i - 1)].style.display = "block";
+                sliderPicArray[i - 1].style.display = "block";
+                break;
             }
         }
     }
@@ -104,16 +115,6 @@ dropdownLists.forEach(function (list) {
 });
 
 //---------- Costs / Summary
-//price vars
-var clairChair = 300,
-    margaritaChair = 200,
-    selenaChair = 180,
-    colorRed = 50,
-    colorOrange = 30,
-    colorBlack = 60,
-    materialLether = 100,
-    materialFabric = 80,
-    transport = 80;
 
 var chairPanelList = document.querySelectorAll(".chair_panel li"),
     colorPanelList = document.querySelectorAll(".color_panel li"),
@@ -198,7 +199,9 @@ function sumAll(){
     priceValues.forEach(function (value) {
         sum += Number(value.innerText);
     });
-    return sum;
+
+
+    return sum+" zl";
 }
 
 console.log(sumAll());
