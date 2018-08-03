@@ -211,10 +211,19 @@ fabric_panel.forEach(function (li) {
 
 //checkbox - while checked, add "transport" to the summary left panel
 document.getElementById('transport').addEventListener('change', function () {
-    summaryTransport.innerText = this.checked? "transport" : "";
-    //add transport price
-    transportValue.innerText = this.dataset.price;
-    //print sum of all values - after each change-refreshed
+    // summaryTransport.innerText = this.checked? "transport" : "";
+    // //add transport price
+    // transportValue.innerText = this.checked? this.dataset.price : "";
+    // //print sum of all values - after each change-refreshed
+    if(this.checked){
+        summaryTransport.innerText = "transport";
+        transportValue.innerText = this.dataset.price;
+    } else {
+        summaryTransport.innerText = '';
+        transportValue.innerText = '';
+    }
+
+
     sumValue.innerText = sumAll();
 });
 
@@ -226,9 +235,9 @@ function sumAll(){
     priceValues.forEach(function (value) {
         sum += Number(value.innerText);
     });
-
-
-    return sum+" zl";
+    if (sum === 0){
+        return "";
+    } else return sum+" zl";
 }
 
 console.log(sumAll());

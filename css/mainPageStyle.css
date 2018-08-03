@@ -470,7 +470,7 @@ section.prices {
      top: -4px;
      left: 1px;
      background-size: cover;
-     background-image: url("../../images/form_ok.jpg");
+     background-image: url("../images/form_ok.jpg");
 }
 
 
@@ -803,6 +803,12 @@ footer p {
      margin-left: 340px;
 }
 
+.icon_bar img:hover {
+     filter: brightness(110%);
+     transform: scale(1.1);
+     cursor: pointer;
+}
+
 footer .sit {
      font-size: 20px;
      font-weight: 500;
@@ -812,6 +818,8 @@ footer .sit {
 .sit span {
      font-weight: 700;
 }
+
+
 
 /*--------------*/
 /*.price__box.middle .price__box__btn:hover{*/
