@@ -65,10 +65,12 @@ chairRight.addEventListener('mouseout', function () {
 
 
 
+//Translatin Nodle list to array, which can be itareted in a loop
 var sliderPicArray = [];
 sliderPic.forEach(function (pic) {
     sliderPicArray.push(pic);
 }) ;
+
 
 //sets necessery style display value for each img (DOES NOT WORK WITH CSS STYLE ONLY! WHY?)
 for(var i = 0; i < sliderPicArray.length; i++) {
@@ -78,9 +80,12 @@ for(var i = 0; i < sliderPicArray.length; i++) {
 
 console.log(sliderPicArray);
 
-
+//Listener  - "click" | previous arrow - slider
 previousArr.addEventListener('click', function () {
-    debugger;
+    // debugger;
+    //Loop all img, check which one has display block - change it to 'none'
+    //&set display "block" for img on position -1 in Array
+    //if this img is on [0] position in the array, set display "block" for the latest img in the array
     for (var i = 0; i < sliderPicArray.length; i++) {
         // console.log(sliderPicArray[i]);
         if(sliderPicArray[i].style.display === "block") {
@@ -95,6 +100,28 @@ previousArr.addEventListener('click', function () {
         }
     }
 });
+
+//Listener  - "click" | next arrow - slider
+nextArr.addEventListener('click', function () {
+    debugger;
+    //Loop all img, check which one has display block - change it to 'none'
+    //&set display "block" for img on position +1 in Array
+    //if this img is on last position in the array, set display "block" for the first img in the array
+    for (var i = 0; i < sliderPicArray.length; i++) {
+        // console.log(sliderPicArray[i]);
+        if(sliderPicArray[i].style.display === "block") {
+            sliderPicArray[i].style.display = "none";
+            if (i === sliderPicArray.length-1) {
+                sliderPicArray[0].style.display = "block";
+                break;
+            } else {
+                sliderPicArray[i + 1].style.display = "block";
+                break;
+            }
+        }
+    }
+});
+
 
 //----------Dropdown list show / hide
 
