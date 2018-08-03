@@ -222,12 +222,12 @@ section.slider {
 }
 
 .chair1 {
-     background-image: url("../../images/box1_img.jpg");
+     background-image: url("../images/box1_img.jpg");
      background-size: cover;
 }
 
 .chair2 {
-     background-image: url("../../images/box2_img.jpg");
+     background-image: url("../images/box2_img.jpg");
      background-size: cover;
 }
 
