@@ -166,6 +166,9 @@ section.slider {
      max-height: 377px;
      height: 377px;
      width: 377px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 .slider__text__content {
