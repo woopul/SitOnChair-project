@@ -20,16 +20,14 @@ var arrows = document.querySelectorAll(".arrow"),
 
 console.log(sliderPic);
 
-
-//Show company submenu after hoover on company
-companyLi.addEventListener('mouseover', function () {
-    companySubmenu.style.display = "block";
+// SUBMENU COMPANY (Show/Slide Down) after mouseenter
+$('#menu_company').on('mouseenter',()=>{
+    $('#sub_container').slideDown();
 });
-//Hide submenu after mouseout of submenu div container
-companySubmenu.addEventListener('mouseout', function () {
-    companySubmenu.style.display = "none";
+//SUBMENU COMPANY Hide after mouseleave
+$('#sub_container').on('mouseleave', event =>{
+    $(event.currentTarget).slideUp();
 });
-
 
 //Hide & show again block with chair name (LEFT)
 chairLeft.addEventListener('mouseover', function () {
