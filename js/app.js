@@ -2,20 +2,9 @@ var companyLi = document.getElementById('menu_company');
 var companySubmenu = document.getElementById('sub_container');
 // var chairToChooseWindow = document.getElementsByClassName('.chair_dimensions');
 
-//box with chair info
-var chairLeft = document.getElementById("chair-left");
-var chairRight = document.getElementById("chair-right");
-//bars with chair name
-var barLeft = document.getElementById("bar-left");
-var barRight = document.getElementById("bar-right");
-
 //pictures slider - Node List
 var sliderPic = document.querySelectorAll(".slider img");
-//arrows
-var arrows = document.querySelectorAll(".arrow"),
 
-    previousArr = document.getElementById("previousArr"),
-    nextArr = document.getElementById("nextArr");
 
 
 console.log(sliderPic);
@@ -29,96 +18,42 @@ $('#sub_container').on('mouseleave', event =>{
     $(event.currentTarget).slideUp();
 });
 
-//Hide & show again block with chair name (LEFT)
-chairLeft.addEventListener('mouseover', function () {
-    barLeft.style.display = "none";
-});
-//show right again
-chairLeft.addEventListener('mouseout', function () {
-    barLeft.style.display = "block";
+
+//CHAIR TO CHOOSE - hide/show chair bar on mouse enter/leave (LEFT)
+$('#chair-left').on('mouseenter mouseleave', ()=>{
+    $('#bar-left').fadeToggle();
 });
 
-//Hide & show again block with chair name (RIGHT)
-chairRight.addEventListener('mouseover', function () {
-    barRight.style.display = "none";
-});
-//show left again
-chairRight.addEventListener('mouseout', function () {
-    barRight.style.display = "block";
+//CHAIR TO CHOOSE - hide/show chair bar on mouse enter/leave (RIGHT)
+$('#chair-right').on('mouseenter mouseleave', ()=>{
+    $('#bar-right').fadeToggle();
 });
 
-// ONLY FOR 2 PICTURES
-//changing showing next/previous
-// arrows.forEach(function (arrow) {
-//     arrow.addEventListener('click', function () {
-//         sliderPic.forEach(function (pic) {
-//             if(pic.style.display === "block"){
-//                 pic.style.display = "none";
-//             } else {
-//                 pic.style.display = "block";
-//             }
-//         });
-//     });
-// });
 
 
-
-//Translatin Nodle list to array, which can be itareted in a loop
-var sliderPicArray = [];
-sliderPic.forEach(function (pic) {
-    sliderPicArray.push(pic);
-}) ;
+const picArr =[...$('.slider_pic_container img')];
+picArr.hide();
+$(picArr[1]).show();
 
 
-//sets necessery style display value for each img (DOES NOT WORK WITH CSS STYLE ONLY! WHY?)
-for(var i = 0; i < sliderPicArray.length; i++) {
-    if(i === 0) sliderPicArray[i].style.display = 'block';
-    else sliderPicArray[i].style.display = "none";
-}
-
-console.log(sliderPicArray);
-
-//Listener  - "click" | previous arrow - slider
-previousArr.addEventListener('click', function () {
-    // debugger;
-    //Loop all img, check which one has display block - change it to 'none'
-    //&set display "block" for img on position -1 in Array
-    //if this img is on [0] position in the array, set display "block" for the latest img in the array
-    for (var i = 0; i < sliderPicArray.length; i++) {
+$('#previousArr').on('click', ()=>{
+    for (var i = 0; i < picArr.length; i++) {
         // console.log(sliderPicArray[i]);
-        if(sliderPicArray[i].style.display === "block") {
-            sliderPicArray[i].style.display = "none";
+        if(picArr[i].style.display === "block") {
+            // sliderPicArray[i].style.display = "none";
+            $(picArr[i]).hide();
             if (i === 0) {
-                sliderPicArray[sliderPicArray.length - 1].style.display = "block";
+                // sliderPicArray[sliderPicArray.length - 1].style.display = "block";
+                $(picArr[picArr.length - 1]).show();
                 break;
             } else {
-                sliderPicArray[i - 1].style.display = "block";
+                // sliderPicArray[i - 1].style.display = "block";
+                $(picArr[i - 1]).show();
                 break;
             }
         }
     }
-});
-
-//Listener  - "click" | next arrow - slider
-nextArr.addEventListener('click', function () {
-    debugger;
-    //Loop all img, check which one has display block - change it to 'none'
-    //&set display "block" for img on position +1 in Array
-    //if this img is on last position in the array, set display "block" for the first img in the array
-    for (var i = 0; i < sliderPicArray.length; i++) {
-        // console.log(sliderPicArray[i]);
-        if(sliderPicArray[i].style.display === "block") {
-            sliderPicArray[i].style.display = "none";
-            if (i === sliderPicArray.length-1) {
-                sliderPicArray[0].style.display = "block";
-                break;
-            } else {
-                sliderPicArray[i + 1].style.display = "block";
-                break;
-            }
-        }
-    }
-});
+})
 
 
 //----------Dropdown list show / hide
