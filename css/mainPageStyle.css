@@ -123,6 +123,37 @@ nav > ul > li:not(:last-child) {
 
 /*--------------------------------------SLIDER SECTION-----------------*/
 
+.animation-slideIn-left{
+     animation: slideInLeft 2s 0s 1 linear;
+}
+
+.animation-slideOut-right{
+     animation: slideOutRight 2s 0s 1 linear;
+}
+
+
+.hide{
+     display: none;
+}
+
+@keyframes slideOutRight {
+     100%{
+          transform: translate(185px);
+     }
+}
+
+@keyframes slideInLeft {
+     0%{
+          transform: translate(-185px);
+     }
+     100%{
+
+         transform: translate(0);
+     }
+}
+
+
+
 section.slider {
      margin-top: 50px;
      height: 400px;
@@ -146,18 +177,18 @@ section.slider {
      cursor: pointer;
 }
 
-#black-chair {
-     display: block;
-}
+/*#black-chair {*/
+     /*display: block;*/
+/*}*/
 
 
-#red-chair {
-     display: none;
-}
+/*#red-chair {*/
+     /*display: none;*/
+/*}*/
 
-#orange-chair{
-     display: none;
-}
+/*#orange-chair{*/
+     /*display: none;*/
+/*}*/
 
 
 

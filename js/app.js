@@ -30,30 +30,81 @@ $('#chair-right').on('mouseenter mouseleave', ()=>{
 });
 
 
-
+//Pic array - set all but one on hide property
 const picArr =[...$('.slider_pic_container img')];
-picArr.hide();
+$(picArr).hide();
 $(picArr[1]).show();
+// $(picArr).addClass('hide');
+// $(picArr[1]).removeClass('hide');
 
 
 $('#previousArr').on('click', ()=>{
     for (var i = 0; i < picArr.length; i++) {
         // console.log(sliderPicArray[i]);
-        if(picArr[i].style.display === "block") {
+        if(picArr[i].style.display !== "none") {
             // sliderPicArray[i].style.display = "none";
-            $(picArr[i]).hide();
+            $(picArr[i]).fadeOut(300);
             if (i === 0) {
                 // sliderPicArray[sliderPicArray.length - 1].style.display = "block";
-                $(picArr[picArr.length - 1]).show();
+                $(picArr[picArr.length - 1]).delay(300).fadeIn(400);
                 break;
             } else {
                 // sliderPicArray[i - 1].style.display = "block";
-                $(picArr[i - 1]).show();
+                $(picArr[i - 1]).delay(300).fadeIn(400);
                 break;
             }
         }
     }
-})
+});
+
+
+$('#nextArr').on('click', ()=>{
+    for (var i = 0; i < picArr.length; i++) {
+        // console.log(sliderPicArray[i]);
+        if(picArr[i].style.display !== "none") {
+
+            $(picArr[i]).fadeOut(300);
+
+            if (i === picArr.length-1) {
+                $(picArr[0]).delay(300).fadeIn(400);
+                break;
+
+            } else {
+
+                $(picArr[i + 1]).delay(300).fadeIn(400);
+                break;
+            }
+        }
+    }
+});
+
+//
+// $('#nextArr').on('click', ()=>{
+//     for (var i = 0; i < picArr.length; i++) {
+//         // console.log(sliderPicArray[i]);
+//         console.log($(picArr[i]).attr('class').split(" "));
+//         console.log(picArr[i].classList);
+//         if($(picArr[i]).hasClass('hide') === false) {
+//
+//             $(picArr[i]).addClass('animation-slideOut-right');
+//             $(picArr[i]).delay(2000).addClass('hide');
+//
+//
+//             if (i === picArr.length-1) {
+//
+//                 $(picArr[0]).removeClass('hide');
+//                 $(picArr[0]).addClass('animation-slideIn-left');
+//                 break;
+//
+//             } else {
+//                 $(picArr[0]).removeClass('hide');
+//                 $(picArr[i + 1]).addClass('animation-slideIn-left');
+//                 break;
+//             }
+//         }
+//     }
+// });
+
 
 
 //----------Dropdown list show / hide
@@ -175,6 +226,8 @@ function sumAll(){
 
 console.log(sumAll());
 
-
+// let slideLeftIn = ()=>{
+//
+// }
 
 
